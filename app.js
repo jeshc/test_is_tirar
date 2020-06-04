@@ -19,7 +19,6 @@ var marvelRouter = require('./routes/marvel'); // Api rest -- Back end
 var frontMarvelRouter = require('./routes/front_comic');
 
 var app = express();
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
